@@ -1,12 +1,20 @@
 # Unsupervised Learning Homework Solution
 
-This repository contains my homework solution for the Unsupervised Learning course at HTWG Konstanz.
+This repository contains my homework solution for the Machine Learning course at HTWG Konstanz.
+
+## Prerequisites
+
+To run the MATLAB code in this project, the following toolboxes are required:
+
+-   Statistics and Machine Learning Toolbox
+-   Deep Learning Toolbox
+-   Reinforcement Learning Toolbox
 
 ## Project Description
 
 This project focused on clustering data to align as closely as possible with the true categories of animal species. The dataset `unlabeled_animal_data.csv` contains measurements of 342 animals across several different metrics. The primary goal was to segment these animals into three distinct species groups, assessing the clustering quality by comparing it with the true labels provided in the second column of the dataset.
 
-The project applies two clustering algorithms:
+### The project applies two clustering algorithms:
 
 -   k-means
 -   DBSCAN
